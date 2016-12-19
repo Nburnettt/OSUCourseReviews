@@ -1,0 +1,276 @@
+body{
+    font-family: proxima-nova, sans-serif;
+    scrollbar-track-color: red;
+    scrollbar-base-color: red;
+}
+html, body{
+    height: 100%;
+}
+/********************************header.php*********************************/
+#headercontainer{
+    position: relative;
+    height: 20vh;
+    width: 80%;
+    margin-left: 10%; 
+    /*
+    box-sizing: border-box;
+    border: solid;
+    border-width: 2px;
+    border-color: blue;*/
+}
+#header{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+#option{
+    font-size: 18px;
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+}
+#logo{
+    font-size: 18px;
+    width: 20%;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+}
+#logo img{   
+    max-width: 100%;
+    max-height: 100%;
+    display:block;
+    margin:auto;
+}
+#link{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#link a{
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+}
+/********************************End Of header.php*********************************/
+
+/********************************index.php*********************************/
+#content{
+    position: relative;
+    float: left;
+    width: 80%;
+    height: 100vh;/*
+    box-sizing: border-box;
+    border: solid;
+    border-width: 2px;
+    border-color: lightgrey;*/
+    margin-left: 10%;
+    margin-top: 3vh;
+}
+#filters{
+    width: 20%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+#pages-list{
+    box-sizing: border-box;
+    padding: 5%;
+    font-size: 13px;  
+    height: 5%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.pages-list-item{
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+
+#filters2{
+    width: 15%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+#space{
+    text-align: center;
+    height: 5%;
+    width: 100%;
+}
+#label{
+    height: 3%;
+    width: 100%;
+    overflow-y: hidden;
+}
+#filters-sorting{ 
+    box-sizing: border-box;
+    padding-left: 5%;
+    font-size: 13px;  
+    height: 10%;
+    width: 100%;
+    overflow: hidden;
+}
+#filters-rating{ 
+    box-sizing: border-box;
+    padding-left: 5%;
+    font-size: 13px;  
+    height: 20%;
+    width: 100%;
+    overflow: hidden;
+}
+#filters-bacc{ 
+    box-sizing: border-box;
+    padding-left: 5%;
+    font-size: 13px;  
+    height: 20%;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+#filters-department{ 
+    box-sizing: border-box;
+    padding-left: 5%;
+    font-size: 13px;  
+    height: 20%;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+#google{
+    width: 20%;
+    height: 100%;
+    float: right;
+    box-sizing: border-box;
+}
+#writing{
+    width: 35%;
+    height: 100%;
+    float: right;
+    box-sizing: border-box;
+}
+#writing-scale{
+    width: 100%;
+}
+#writing-label{
+    width: 100%;
+    height: 5%;
+    font-size: 20px;
+    text-align: center;
+}
+#results{
+    width: 60%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+#results2{
+    width: 50%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+#write{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+}
+#result{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+#baccoption{
+    font-size: 8px;
+    color: red;
+}
+/********************************End Of index.php*********************************/
+
+#course{
+    height: 10%;
+    overflow: hidden;
+}
+#courserating{
+    font-size: 100%;
+    height: 100%;
+    width: 10%;
+    float: left;
+    text-align: center;
+}
+#courseidentifier{
+    height: 100%;
+    box-sizing: border-box;
+    width: 15%;
+    float: left;
+    text-align: center;
+}
+#coursedepartment{
+    height: 50%;
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+#coursenumber{
+    height: 50%;
+    width: 100%;
+    float: left;
+    text-align: left;
+    margin-left: 30%;
+}
+#coursedescription{
+    height: 100%;
+    width: 60%;
+    float: left;
+}
+#coursereview{
+    height: 100%;
+    width: 10%;
+    float: left;
+}
+#information{
+    height: 10%;
+    width: 100%;
+}
+#information-name{
+    height: 50%;
+    width: 100%;
+    font-size: 25px;
+}
+#information-name-department{
+    height: 100%;
+    width: 15%;
+    float: left;
+    margin-left: 35%;
+    text-align: center;
+}
+#information-name-number{
+    height: 100%;
+    width: 15%;
+    float: right;
+    margin-right: 35%;
+    text-align: center;
+}
+#information-description{
+    height: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+/***************Start of Admin.php*********************/
+#messagebox{
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    float: right;
+}
+#holder{
+    width: 50%;
+    height: 50%;
+    background-color: orange;
+    float: left;
+}
+
+/***************End of Admin.php***********************/
